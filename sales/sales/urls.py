@@ -19,6 +19,6 @@ from django.urls import path , include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('sales_customer.urls')),
+    path('',include('sales_customer.urls')), #changes write sales_customer & sales_product
     path('', include('sales_product.urls')),
 ]
